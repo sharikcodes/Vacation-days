@@ -1,0 +1,11 @@
+
+
+---------------------------------------------------- Calculate Days ------------------------------------------
+
+// Only calculate if start sate and end date are not empty
+if(Vacation_Start_Date != null && Vacation_End_Date != null)
+{
+	// Calculate the number of days between the start and end
+	input.Vacation_Days_Off = input.Vacation_Start_Date.daysBetween(input.Vacation_End_Date) + 1;
+}
+
